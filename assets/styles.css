@@ -1,0 +1,32 @@
+*{
+    background-color: burlywood;
+}
+h1{
+    color: darkviolet;
+}
+
+.prvi{
+    color: blue;
+}
+
+.drugi{
+    color: brown;
+}
+
+.treci{
+    color: chocolate;
+}
+
+/* id selector */
+
+#cetvrti {
+    color: aqua;
+}
+
+p[draggable="true"]{
+    color: aqua;
+}
+
+p[draggable="false"]{
+    color: darksalmon;
+}
