@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donut Chart</title>
+    <style>
+        .chart-container {
+            width: 200px;
+            height: 200px;
+            position: relative;
+        }
+        .donut-chart {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            background: conic-gradient(
+                #00a896 0deg 120deg,
+                #028090 120deg 240deg,
+                #05668d 240deg 360deg
+            );
+            position: relative;
+        }
+        .donut-chart::before {
+            content: "";
+            width: 60%;
+            height: 60%;
+            background: white;
+            border-radius: 50%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .prvi{
+            background-color: #05668d;
+            height: 20%;
+            width: 20%;
+            border-radius: 50%;
+            position: relative;
+            top: -75px;
+            left: 14px;
+            box-shadow: 3px 4px 7px black;
+        }
+
+        .drugi{
+            background-color: #00a896;
+            height: 20%;
+            width: 20%;
+            border-radius: 50%;
+            position: relative;
+            top: -240px;
+            left: 80px;
+            
+        }
+
+        .treci{
+            background-color: #028090;
+            height: 20%;
+            width: 20%;
+            border-radius: 50%;
+            position: relative;
+            top: -153px;
+            left: 145px;
+            
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <div class="chart-container">
+        <div class="donut-chart"></div>
+        <div class="prvi"></div>
+        <div class="drugi"></div>
+        <div class="treci"></div>
+    </div>
+    
+</body>
+</html>
