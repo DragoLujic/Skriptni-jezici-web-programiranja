@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing Table</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f8f8f8;
+        }
+        .pricing-container {
+            display: flex;
+            gap: 20px;
+        }
+        .plan {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .plan h2 {
+            font-size: 1.5em;
+        }
+        .plan p {
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+        .plan ul {
+            list-style: none;
+            padding: 0;
+        }
+        .plan ul li {
+            margin: 10px 0;
+        }
+        .signup-btn {
+            background-color: orange;
+            color: white;
+            padding: 10px 15px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="pricing-container">
+        <div class="plan">
+            <h2>Basic</h2>
+            <p>$11.99/month</p>
+            <ul>
+                <li>✅10GB Storage</li>
+                <li>✅1 User</li>
+                <li>🚫Support</li>
+            </ul>
+            <a href="#" class="signup-btn">Sign Up</a>
+        </div>
+        <div class="plan">
+            <h2>Standard</h2>
+            <p>$19.99/month</p>
+            <ul>
+                <li>✅50GB Storage</li>
+                <li>✅5 Users</li>
+                <li>✅Phone & Email Support</li>
+            </ul>
+            <a href="#" class="signup-btn">Sign Up</a>
+        </div>
+        <div class="plan">
+            <h2>Premium</h2>
+            <p>$49.99/month</p>
+            <ul>
+                <li>✅100GB Storage</li>
+                <li>✅10 Users</li>
+                <li>✅24/7 Support</li>
+            </ul>
+            <a href="#" class="signup-btn">Sign Up</a>
+        </div>
+    </div>
+</body>
+</html>
