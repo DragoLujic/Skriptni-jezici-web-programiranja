@@ -65,3 +65,15 @@ section{
         background-color: aquamarine;
     }
 }
+/* 
+@media (orientation: landscape) {
+    section{
+        background-color: blue;
+    }
+}
+
+@media (orientation: landscape) {
+    section{
+        background-color: blue;
+    }
+} */
